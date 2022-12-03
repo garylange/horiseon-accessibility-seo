@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Changed classes for header and nav */
 .masthead {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,19 +23,19 @@ body {
 .masthead h1 .seo {
     color: #d9dcd6;
 }
-
+/* Changed selector and replaced padding-top with padding-bottom*/
 .nav section {
-    padding-top: 15px;
+    padding-bottom: 175px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Commented out extraneous code (at least, I think it's extraneous)
 .nav section ul {
     list-style-type: none;
 }
-
+*/
 .nav section ul li {
     display: inline-block;
     margin-left: 25px;
@@ -85,6 +85,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* Consolidated img properties into one class*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -97,9 +103,11 @@ p {
 }
 
 .benefit-cost {
-    margin-bottom: 32px;
+    margin-bottom: 35px;
     color: #ffffff;
 }
+
+
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -115,7 +123,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Commented out extraneous code
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,9 +141,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
 .search-engine-optimization {
-    margin-bottom: 20px;
+    margin-bottom:20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
